@@ -1,7 +1,7 @@
 # How OpenSea Quickly Determines Owned NFTs  
 
 ### Events  
-Solidity events, especially the `Transfer` event in ERC721 contracts, are essential for tracking the ownership of NFTs. OpenSea can set up event listeners to monitor these events and store them in an off-chain database for quick query retrieval. Even if most NFTs don’t use ERC721Enumerable, ownership data can still be accessed and processed efficiently through various methods offchain - whether in a decentralized or centralized manner. 
+Solidity events, especially the `Transfer` event in ERC721 contracts, are useful for tracking the ownership of NFTs. OpenSea can set up event listeners to monitor these events and store them in an off-chain database for quick query retrieval. Even if most NFTs don’t use ERC721Enumerable, ownership data can still be accessed and processed through various methods offchain - whether in a decentralized or centralized manner. 
 
 ### Decentralized Querying  
 
